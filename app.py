@@ -10,5 +10,13 @@ def introduce_student():
     <p>This is a simple web application built with Flask.</p>
             '''
 
+@app.route('/rhys')
+def introduce_rhys():
+    return '''
+    <h1>Student Introduction</h1>
+    <p>wake up in the morning feeling like.</p>
+    <p>wake up in the morning feeling like</p>
+            '''
+
 if __name__ == '__main__':
     app.run(debug=True)

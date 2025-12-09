@@ -11,7 +11,7 @@ def introduce_student():
             '''
 
 @app.route('/rhys')
-def introduce_student():
+def introduce_rhys():
     return '''
     <h1>Student Introduction</h1>
     <p>wake up in the morning feeling like.</p>

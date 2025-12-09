@@ -17,6 +17,13 @@ def introduce_rhys():
     <p>wake up in the morning feeling like.</p>
     <p>wake up in the morning feeling like</p>
             '''
+@app.route('/Josh')
+def introduce_josh():
+    return '''
+    <h1>Student Introduction</h1>
+    <p>Hello! I'm josh using Flask.</p>
+    <p>This is a simple web application built with Flask mmmmmmmmm.</p>
+            '''
 
 @app.route('/Alex')
 def introduce_student():
